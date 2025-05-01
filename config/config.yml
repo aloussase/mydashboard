@@ -82,6 +82,8 @@ services:
       - name: 'Portainer'
         icon: 'fa-solid fa-cubes'
         subtitle: 'Container management'
+        url: 'https://containers.frustrated-functor.dev/#!/3/docker/containers'
+        target: '_blank'
 
   - name: 'Blogs'
     icon: 'fa-solid fa-rss'
