@@ -21,7 +21,6 @@ links:
   - name: "GitHub"
     icon: "fab fa-github"
     url: "https://github.com/aloussase"
-    target: "_blank"
 
 services:
   - name: "Latam"
@@ -31,27 +30,22 @@ services:
         icon: "fa-brands fa-gitlab"
         subtitle: 'Source code repository'
         url: "https://gitlab.com/"
-        target: "_blank"
       - name: "Jira"
         icon: "fa-brands fa-jira"
         subtitle: 'Project management'
         url: 'https://projectmanagement.appslatam.com/secure/RapidBoard.jspa?rapidView=3740#'
-        target: "_blank"
       - name: "Confluence"
         icon: "fa-brands fa-confluence"
         subtitle: 'Squad documentation'
         url: 'https://docsrepo.appslatam.com/spaces/ELOE2E/pages/512688966/P%C3%A1gina+de+inicio+de+eLoyalty+-+E2E'
-        target: "_blank"
       - name: "AEM"
         icon: "fa-solid fa-file"
         subtitle: "Adobe Experience Manager"
         url: "https://author-latam-b75-stage3.adobecqms.net/libs/granite/core/content/login.html?resource=%2Feditor.html%2Fcontent%2Fdam%2Feffp%2Flatampass%2Fpt_br%2Fbanners%2Fcampaigns%2Famazon-com-br%2Famazon-com-br&$$login$$=%24%24login%24%24&j_reason=unknown&j_reason_code=unknown"
-        target: "_blank"
       - name: "App test users"
         icon: "fa-solid fa-user"
         subtitle: "List of test users for the app"
         url: "https://docs.google.com/spreadsheets/d/1HBqham5jsud7_IhJmjB4KoJzUvUmRHASfUv31RSvyNQ/edit?pli=1&gid=0#gid=0"
-        target: "_blank"
 
   - name: "Thesis"
     icon: 'fa-solid fa-graduation-cap'
@@ -60,7 +54,10 @@ services:
         icon: "fa-brands fa-slack"
         subtitle: 'VU slack channel'
         url: 'https://app.slack.com/client/T12H37MFB/C077SJZ3FJ4'
-        target: "_blank"
+      - name: 'Jira'
+        icon: "fa-brands fa-jira"
+        subtitle: 'Scrum board for the thesis'
+        url: 'https://espoldist.atlassian.net/jira/software/projects/SCRUM/boards/1'
 
   - name: 'Infra'
     icon: 'fa-solid fa-server'
@@ -69,7 +66,6 @@ services:
         icon: 'fa-solid fa-server'
         subtitle: 'VPS'
         url: 'https://console.hetzner.cloud/projects'
-        target: '_blank'
 
       - name: 'Grafana'
         icon: 'fa-solid fa-chart-line'
@@ -83,7 +79,6 @@ services:
         icon: 'fa-solid fa-cubes'
         subtitle: 'Container management'
         url: 'https://containers.frustrated-functor.dev/#!/3/docker/containers'
-        target: '_blank'
 
   - name: 'Blogs'
     icon: 'fa-solid fa-rss'
@@ -92,4 +87,3 @@ services:
         icon: 'fa-solid fa-rss'
         subtitle: 'Aggregated news from the database world'
         url: 'https://database.news/'
-        target: '_blank'
