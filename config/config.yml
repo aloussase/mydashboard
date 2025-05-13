@@ -50,6 +50,10 @@ services:
   - name: "Thesis"
     icon: 'fa-solid fa-graduation-cap'
     items:
+      - name: 'GitHub'
+        icon: "fa-brands fa-github"
+        subtitle: 'Source code repositories'
+        url: 'https://github.com/orgs/Tracing-Performance-Labs/repositories'
       - name: 'Slack'
         icon: "fa-brands fa-slack"
         subtitle: 'VU slack channel'
