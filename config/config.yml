@@ -63,6 +63,14 @@ services:
         subtitle: 'Scrum board for the thesis'
         url: 'https://espoldist.atlassian.net/jira/software/projects/SCRUM/boards/1'
 
+  - name: 'ESPOL'
+    icon: 'fa-solid fa-school'
+    items:
+      - name: 'AWS Academy'
+        icon: "fa-brands fa-amazon"
+        subtitle: 'AWS Learning Platform'
+        url: 'https://awsacademy.instructure.com/courses/122082'
+
   - name: 'Infra'
     icon: 'fa-solid fa-server'
     items:
